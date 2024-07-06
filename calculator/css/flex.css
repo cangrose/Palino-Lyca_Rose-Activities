@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    /*justify-content: space-between;*/
+    /*justify-content: center;*/
+    /*justify-content: wrap-reverse;*/
+    /*justify-content: column;*/
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    /*flex-direction: wrap;*/
+    background-color: dodgerblue;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
